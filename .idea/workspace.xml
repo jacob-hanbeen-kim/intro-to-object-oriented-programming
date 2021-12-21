@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00bedb0-f2d0-4cb2-9043-eb3262fcc0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hw/main/hw1/Homework1_Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/test/hw1/Homework1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw/main/hw2/WhatsTheWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw/main/hw2/hw2-instruction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson/lesson2/ScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson/lesson2/scannerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro-to-object-oriented-programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intro-to-object-oriented-programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw/hw1/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw/main/hw1/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson/lesson2/Conditionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson2/Conditionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson/lesson2/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson2/ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson/lesson2/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson2/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson/lesson2/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson2/WhileLoop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,51 +41,70 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="30" />
+          <entry key="java" value="40" />
+          <entry key="md" value="4" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="30" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="40" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="28" />
-          <entry key="java" value="6382" />
+          <entry key="dummy" value="46" />
+          <entry key="java" value="7227" />
+          <entry key="md" value="819" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6382" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="JAVA" value="7227" />
+          <entry key="Markdown" value="819" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hw/main/hw1/Homework1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="143" column="39" lean-forward="true" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+            <state relative-caret-position="45">
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hw/main/hw2/WhatsTheWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hw/test/hw1/Homework1Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/hw/main/hw2/hw2-instruction.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1650">
+                <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -90,8 +114,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,6 +151,17 @@
         <option value="$PROJECT_DIR$/src/hw/test/hw1/Homework1Test.java" />
         <option value="$PROJECT_DIR$/src/hw/main/hw1/Homework1_Answer.java" />
         <option value="$PROJECT_DIR$/src/hw/main/hw1/Homework1.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/ForLoop.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/Conditionals.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/Switch.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/WhileLoop.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/Scanner.java" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/scannerText.txt" />
+        <option value="$PROJECT_DIR$/src/lesson/lesson2/ScannerDemo.java" />
+        <option value="$PROJECT_DIR$/src/hw/main/hw2/Homework2.java" />
+        <option value="$PROJECT_DIR$/src/hw/main/hw2/word-guess.md" />
+        <option value="$PROJECT_DIR$/src/hw/main/hw2/hw2-instruction.md" />
+        <option value="$PROJECT_DIR$/src/hw/main/hw2/WhatsTheWord.java" />
       </list>
     </option>
   </component>
@@ -188,21 +223,29 @@
               <item name="intro-to-object-oriented-programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro-to-object-oriented-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro-to-object-oriented-programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro-to-object-oriented-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro-to-object-oriented-programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro-to-object-oriented-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro-to-object-oriented-programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +259,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640107717896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640111266895" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -239,6 +282,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hw/main/hw3" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -254,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Homework1_Answer">
+  <component name="RunManager" selected="Application.ScannerDemo">
     <configuration name="Homework1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw.main.hw1.Homework1" />
       <module name="intro-to-object-oriented-programming" />
@@ -294,6 +338,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson.lesson2.ScannerDemo" />
+      <module name="intro-to-object-oriented-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Homework1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro-to-object-oriented-programming" />
       <extension name="coverage">
@@ -308,36 +365,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework1Test.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intro-to-object-oriented-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw.test.hw1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw.test.hw1" />
-      <option name="MAIN_CLASS_NAME" value="hw.test.hw1.Homework1Test" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Homework1" />
       <item itemvalue="JUnit.Homework1Test" />
-      <item itemvalue="JUnit.Homework1Test.main" />
       <item itemvalue="Application.Homework1 (1)" />
       <item itemvalue="Application.Homework1_Answer" />
+      <item itemvalue="Application.ScannerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScannerDemo" />
         <item itemvalue="Application.Homework1_Answer" />
         <item itemvalue="JUnit.Homework1Test" />
         <item itemvalue="Application.Homework1 (1)" />
         <item itemvalue="Application.Homework1" />
-        <item itemvalue="JUnit.Homework1Test.main" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +396,7 @@
       <workItem from="1639530966331" duration="26000" />
       <workItem from="1639531012759" duration="484000" />
       <workItem from="1640105333843" duration="804000" />
-      <workItem from="1640106265815" duration="1487000" />
+      <workItem from="1640106265815" duration="4597000" />
     </task>
     <servers />
   </component>
@@ -392,7 +433,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12522000" />
+    <option name="totallyTimeSpent" value="15632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,7 +448,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +457,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,42 +497,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson/lesson1/BooleanExpression.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/Conditionals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/ForLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/WhileLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/Switch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/hw/hw1/Homework1.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson1/JavaMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson/lesson1/JavaOperators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -533,10 +539,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson1/JavaMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/Switch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/scannerTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/main/hw3/grades.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/ForLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/WhileLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/Conditionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson/lesson2/ScannerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw/main/hw1/Homework1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="143" column="39" lean-forward="true" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="815">
+            <caret line="160" column="10" lean-forward="true" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/main/hw2/hw2-instruction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1650">
+            <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/main/hw2/WhatsTheWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
