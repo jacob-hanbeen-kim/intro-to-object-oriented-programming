@@ -1,6 +1,6 @@
 package hw.main.hw1;
 
-public class Homework1_Answer {
+public class Homework1Answer {
     public static void main(String[] args) {
 
         /**

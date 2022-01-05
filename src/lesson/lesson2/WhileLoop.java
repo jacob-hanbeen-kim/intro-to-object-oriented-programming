@@ -47,7 +47,7 @@ public class WhileLoop {
         } while (misses < 5);
 
         if (misses == 5) {
-            System.out.println("You LOSE!!");\
+            System.out.println("You LOSE!!");
         }
 
         /** While loop only executes code block when condition is met
