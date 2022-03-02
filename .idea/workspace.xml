@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00bedb0-f2d0-4cb2-9043-eb3262fcc0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hw/main/project2/Project2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw/main/project2/Project2Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson/lesson3/Array2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-to-object-oriented-programming/hw/main/hw3/grades.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-to-object-oriented-programming/hw/main/hw3/hw3-instruction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw/main/hw3/grades.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson/lesson3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson3/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,23 +198,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="hw.test.hw1" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hw.main.hw2" />
-      <recent name="hw.main.hw1" />
-      <recent name="lesson.lesson1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hw/main/hw3" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hw.test.hw1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw.main.project2" />
+      <recent name="hw.main.hw2" />
+      <recent name="hw.main.hw1" />
+      <recent name="lesson.lesson1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Array">
+  <component name="RunManager" selected="Application.Project2Answer">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson.lesson3.Array" />
       <module name="intro-to-object-oriented-programming" />
@@ -221,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.lesson3.Lesson3" />
+    <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson.lesson3.Array2D" />
       <module name="intro-to-object-oriented-programming" />
       <extension name="coverage">
         <pattern>
@@ -247,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.lesson2.Practice" />
+    <configuration name="Project2Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw.main.project2.Project2Answer" />
       <module name="intro-to-object-oriented-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson.lesson2.*" />
+          <option name="PATTERN" value="hw.main.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhatsTheWordAnswer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw.main.hw2.WhatsTheWordAnswer" />
+    <configuration name="project2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw.main.project2.project2" />
       <module name="intro-to-object-oriented-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw.main.hw2.*" />
+          <option name="PATTERN" value="hw.main.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WhatsTheWordAnswer" />
-      <item itemvalue="Application.Practice" />
-      <item itemvalue="Application.Lesson3" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Array" />
+      <item itemvalue="Application.Array2D" />
+      <item itemvalue="Application.project2" />
+      <item itemvalue="Application.Project2Answer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project2Answer" />
+        <item itemvalue="Application.project2" />
+        <item itemvalue="Application.Array2D" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Lesson3" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.WhatsTheWordAnswer" />
       </list>
     </recent_temporary>
   </component>

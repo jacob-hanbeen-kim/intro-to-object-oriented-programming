@@ -1,4 +1,4 @@
-Homework 2
+Project 2
 ==========
 
 Introduction

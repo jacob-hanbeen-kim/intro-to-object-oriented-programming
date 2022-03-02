@@ -21,8 +21,22 @@ public class Array {
         nameArray[7] = "m";
 
         System.out.println(nameArray);
+
+        // standard for loop idx conidition with step i++
+
+        // problem : change the 3rd index value to be K
         for(int i =0; i < nameArray.length; i++) {
+            if (i == 3) {
+                nameArray[i] = "K";
+            }
             System.out.println(nameArray[i]);
+        }
+
+        // for each element in array
+        // -- only for reading value off of array
+        for(String value : nameArray) {
+            // nameArray[1] = "k";
+            System.out.println(value);
         }
     }
 }
