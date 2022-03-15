@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00bedb0-f2d0-4cb2-9043-eb3262fcc0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hw/main/project2/Project2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/main/project2/Project2Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson/lesson3/Array2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson/lesson4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson/lesson4/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-to-object-oriented-programming/hw/main/hw3/grades.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-to-object-oriented-programming/hw/main/hw3/hw3-instruction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw/main/hw3/grades.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw/main/hw3/hw3-instruction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson/lesson3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson/lesson3/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +177,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641517651401" />
@@ -215,7 +211,7 @@
       <recent name="lesson.lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Project2Answer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson.lesson3.Array" />
       <module name="intro-to-object-oriented-programming" />
@@ -242,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.lesson3.Person" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson.lesson4.Main" />
       <module name="intro-to-object-oriented-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson.lesson3.*" />
+          <option name="PATTERN" value="lesson.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +278,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Person" />
       <item itemvalue="Application.Array" />
       <item itemvalue="Application.Array2D" />
       <item itemvalue="Application.project2" />
       <item itemvalue="Application.Project2Answer" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Project2Answer" />
         <item itemvalue="Application.project2" />
         <item itemvalue="Application.Array2D" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Person" />
       </list>
     </recent_temporary>
   </component>
