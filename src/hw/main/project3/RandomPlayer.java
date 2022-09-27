@@ -1,4 +1,4 @@
-package hw.main.project3_ans;
+package hw.main.project3;
 
 import java.util.Random;
 

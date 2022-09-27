@@ -1,4 +1,4 @@
-package hw.main.project3_ans;
+package hw.main.project3;
 
 public abstract class Player {
     public enum Move {HIT, STAND};

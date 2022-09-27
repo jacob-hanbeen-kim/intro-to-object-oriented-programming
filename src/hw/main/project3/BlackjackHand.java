@@ -1,4 +1,4 @@
-package hw.main.project3_ans;
+package hw.main.project3;
 
 public class BlackjackHand implements Comparable {
 

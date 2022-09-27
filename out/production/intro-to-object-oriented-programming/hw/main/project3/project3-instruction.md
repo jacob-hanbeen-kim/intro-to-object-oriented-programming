@@ -11,10 +11,13 @@ This homework will cover Class, Enum, and Inheritance
 * Enum
   * Rank
   * Suit
+  * PlayerType
 * Class
   * Card
   * Deck
   * Player
+  * HumanPlayer
+  * RandomPlayer
   * Game
 
 Problem Description
@@ -27,16 +30,40 @@ Solution Description
 
 Write a Java class that, when run plays game of Black Jack.
 
-    100 - 91 | [][][][][][][][][][][][][]
-     90 - 81 | [][][][][][][][][][][][][][][][][][][][][][][][][][]
-     80 - 71 | [][][][][][][][][][][][][][]
-     70 - 61 | [][][][][][][][][][][][][][][][]
-     60 - 51 | [][][][][][][][]
-     50 - 41 | [][][][][]
-     40 - 31 | [][][][][][][]
-     30 - 21 | [][]
-     20 - 11 |
-     10 -  0 | [][]
+    What's your name? Jacob
+    Here's the table:
+    
+    ========================================
+    ---------- House's hand: ----------
+    One face down card
+    TWO of CLUBS
+    
+    ---------- Jacob's hand: ----------
+    EIGHT of HEARTS
+    NINE of SPADES
+    
+    ========================================
+    
+    What's your move, Jacob? (H for hit, S for stand, then ENTER) H
+    ========================================
+    ---------- House's hand: ----------
+    TWO of HEARTS
+    TWO of CLUBS
+    
+    ---------- Jacob's hand: ----------
+    EIGHT of HEARTS
+    NINE of SPADES
+    SEVEN of SPADES
+    
+    ========================================
+    
+    ========================================
+    Final Score
+    House's score: 4
+    Jacob's score: 24
+    ========================================
+    
+    House Wins! Player exceeded 21.
 
 
 Black Jack
@@ -65,34 +92,6 @@ Here is how you play:
 * You stand if you are happy with your two cards.
 * The dealer must score at least 17 — they deal themselves more cards if they don’t.
 
-### Input
-
-You will use command-line arguments to inform your program the location of the grades file - _see [Expected Output](https://cs1331.gitlab.io/fall2018/hw1/hw1-histogram.html#expected-output) for how to pass the file name in when running the program_.
-
-You must allow the user to specify the number of bins in the two following ways:
-
-1.  Firstly, the number of bins may be specified as an additional command line arg, e.g. `java Histogram grades.csv 5`
-2.  If the second command line arg is not present, your program must ask the user for the number of bins at the beginning.
-
-Expected Output
----------------
-
-Running the program should look like this:
-
-> **Note:** `$` is the command prompt on Unix. On Windows it will look like `C:>`
-
-* Expected Normal Output
-    
-        $ java BlackJackGame
-        What's your name? Jacob
-        
-        Here's the table:
-        House's hand: One face down card and A
-        Jacob's hand: A and 10
-        
-    
-
-**IMPORTANT:** The spacing here is very important. You must use the same spacing scheme as our examples or you will lose points. Also make sure the prompt for the number of bins is the same as our example.
 
 Allowed imports
 ---------------
@@ -100,20 +99,8 @@ Allowed imports
 You are allowed to import the following classes and only the following classes:
 
 *   java.util.Scanner;
-*   java.io.File;
+*   java.io.Random;
 *   Any Exception
-
-Tips
-----
-
-1.  You may assume that you always get valid input.
-2.  You may assume the text file has valid numbers.
-3.  101 is a prime number.
-4.  Try using 101 as the number of bins before you submit.
-5.  Try using printf.
-6.  An array is a fixed size data structure; you need to know ahead of time how big it needs to be. How do we do this?
-7.  You can give interpretations to the indices and contents of an array to arrive at creative solutions to problems. Code smart, not hard.
-8.  Creating a `Scanner` object with a file will throw a checked exception. Don’t worry about what this means — for now, just append `throws Exception` to the end of the `main` method signature wherein the file is opened.
 
 Check Points
 -------
