@@ -1,6 +1,4 @@
-package hw.main.project3;
-
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+package hw.main.project3_ans;
 
 import java.util.Random;
 
@@ -10,46 +8,42 @@ public class Deck {
     private int topCard;
 
     public Deck() {
-        // #TODO: Initialize fields
-
-        // #TODO: Populate cards array with values
+        this.cards = new Card[52];
+        this.topCard = 51;
+        int cardNumber = 0;
+        for (Suit suit: Suit.values()) {
+            for (Rank rank: Rank.values()) {
+                this.cards[cardNumber] = new Card(rank, suit);
+                cardNumber++;
+            }
+        }
     }
 
-    /**
-     * Shuffles the card randomly
-     */
     public void shuffle() {
-        // #TODO: implement method using swap method provided below
+        Random rand = new Random();
+        for (int i = 0; i < 100; i++) {
+            int card1 = rand.nextInt(this.topCard + 1);
+            int card2 = rand.nextInt(this.topCard + 1);
+            swap(card1, card2);
+        }
     }
 
-    /**
-     * swaps placement of card1 and card2 in cards array
-     * @param card1
-     * @param card2
-     */
     private void swap(int card1, int card2) {
         Card tmp = this.cards[card1];
         this.cards[card1] = this.cards[card2];
         this.cards[card2] = tmp;
     }
 
-    /**
-     * draw topCard in cards array
-     * @return
-     */
     public Card draw() {
-        // #TODO: implement draw function
-        throw new NotImplementedException();
+        topCard--;
+        assert(topCard >= -1);
+        return cards[topCard + 1];
     }
 
     public boolean hasCards() {
         return topCard >= 0;
     }
 
-    /**
-     * Prints Card to Console
-     * @return
-     */
     public String toString() {
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i <= topCard; ++i) {

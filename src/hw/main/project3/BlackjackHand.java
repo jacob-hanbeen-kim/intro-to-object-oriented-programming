@@ -1,4 +1,4 @@
-package hw.main.project3;
+package hw.main.project3_ans;
 
 public class BlackjackHand implements Comparable {
 
@@ -10,7 +10,7 @@ public class BlackjackHand implements Comparable {
     public BlackjackHand(PlayerType playerType) {
         this.faceUpCards = new Card[10];
         this.playerType = playerType;
-        int lastFaceUpCard = -1;
+        this.lastFaceUpCard = 0;
     }
 
     /**

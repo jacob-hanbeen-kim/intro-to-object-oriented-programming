@@ -1,4 +1,4 @@
-package hw.main.project3;
+package hw.main.project3_ans;
 
 public abstract class Player {
     public enum Move {HIT, STAND};
@@ -27,5 +27,5 @@ public abstract class Player {
         this.hand.addFaceDown(card);
     }
 
-    public abstract Move getMove(BlackjackHand... opponentHands);
+    public abstract Move getMove(BlackjackHand ... opponentHands);
 }

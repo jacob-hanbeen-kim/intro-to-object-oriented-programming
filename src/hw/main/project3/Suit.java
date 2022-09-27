@@ -1,5 +1,5 @@
-package hw.main.project3;
+package hw.main.project3_ans;
 
 public enum Suit {
-    // TODO: Define Suits
+    DIAMONDS, CLUBS, HEARTS, SPADES
 }

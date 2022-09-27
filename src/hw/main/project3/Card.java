@@ -1,4 +1,4 @@
-package hw.main.project3;
+package hw.main.project3_ans;
 
 public class Card {
     private Rank rank;

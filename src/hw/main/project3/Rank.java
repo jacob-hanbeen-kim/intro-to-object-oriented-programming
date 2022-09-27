@@ -1,5 +1,5 @@
-package hw.main.project3;
+package hw.main.project3_ans;
 
 public enum Rank {
-    // TODO: Define Ranks
+    TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE
 }

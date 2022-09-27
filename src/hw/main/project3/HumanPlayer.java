@@ -1,6 +1,4 @@
-package hw.main.project3;
-
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+package hw.main.project3_ans;
 
 import java.util.Scanner;
 
@@ -13,15 +11,15 @@ public class HumanPlayer extends Player {
         keyboard = new Scanner(System.in);
     }
 
-    /**
-     * Ask user for action (H for hit and S for stand)
-     * and perform given action
-     * @param opponentHands
-     * @return
-     */
     @Override
-    public Move getMove(BlackjackHand... opponentHands) {
-        // TODO: implement getMove
-        throw new NotImplementedException();
+    public Move getMove(BlackjackHand ... opponentHands) {
+        System.out.print("What's your move, " + getName()
+                + "? (H for hit, S for stand, then ENTER) ");
+        String input = keyboard.nextLine();
+        if (input.equals("h") || input.equals("H")) {
+            return Move.HIT;
+        } else {
+            return Move.STAND;
+        }
     }
 }
